@@ -292,9 +292,9 @@ text-align: center;
     height: 24px;
     width: 24px;
 }
-p{
+.card-bottom>p{
     margin: 0;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 .likes{
     margin: 0;
@@ -321,7 +321,6 @@ font-weight: 600;
 line-height: 16px;
 letter-spacing: 0em;
 text-align: left;
-
 }
 .all-comments{
     font-family: Roboto;
@@ -330,11 +329,7 @@ font-weight: 400;
 line-height: 18px;
 letter-spacing: 0em;
 text-align: left;
-
 }
-
-
-
 .main{
 flex-grow: 1;
 overflow-y: auto;
@@ -378,26 +373,31 @@ display: flex;
     .logo{
         display: none;
     }
+    .stories{
+        margin-left: 10px;
+        width: 100%;
+    }
     .left-bar{
         width: 100%;
+        overflow: unset;
     }
     .sidebar-container{
         display: flex;
+        width: 100%;
         flex-direction: row;
-        width: 100%;
+        justify-content: space-around;
+        align-items: center;
     }
-    .stories{
-        margin: 10px;
-        width: 100%;
-    }
-    .sidebar-icon{
-        display: inline-block;
+    .sidebar-item{
+        padding: 0;
     }
     .sidebar-item-heading{
         display: none;
     }
-    .sidebar-container{
-        width: 100%;
-        justify-content: space-around;
+    .sidebar-icon{
+        display: block;
+    }
+    .main{
+        flex-grow: 1;
     }
 }
