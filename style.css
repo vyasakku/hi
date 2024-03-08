@@ -183,12 +183,14 @@ text-align: left;
     flex-direction: column;
 }
 .stories{
+    width: 100%;
     height: 120px;
     margin: auto;
     display: flex;
     flex-direction: row;
     overflow-x: auto;
     scrollbar-color: lightgray transparent;
+    scrollbar-width: thin;
     align-items: center;
     justify-content: flex-start;
     min-width: 630px;
