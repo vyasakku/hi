@@ -60,7 +60,11 @@ body{
     letter-spacing: 0em;
     text-align: left;
     
-    }
+}
+.sidebar-profile{
+scale: 1.7;
+filter: grayscale(90%);
+}
 
 .right-bar{
 width: 30%;
@@ -184,7 +188,7 @@ text-align: left;
 }
 .stories{
     height: 120px;
-    width:80%;
+    width:90%;
     margin: auto;
     display: flex;
     flex-direction: row;
