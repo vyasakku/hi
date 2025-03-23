@@ -253,7 +253,7 @@ scrollbar-color: lightgray transparent;
 
 }
 .card{
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-bottom: 10px;
     display: flex;
@@ -365,7 +365,7 @@ width: 70%;
 .content-container{
     width: auto;
 }
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1256px) {
     .right-bar{
         display: none;
     }
